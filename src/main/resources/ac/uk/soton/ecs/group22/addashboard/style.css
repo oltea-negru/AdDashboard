@@ -1,0 +1,69 @@
+
+.root {
+  -fx-font-family: "Arial";
+}
+
+.big-header {
+  -fx-font-weight: bold;
+  -fx-font-size: 18px;
+}
+
+.topLabel {
+  -fx-font-weight: bold;
+}
+
+.disabled {
+  -fx-fill: #828282;
+}
+
+.disabled-legend {
+  -fx-fill: #828282;
+  -fx-background-color: #828282;
+  -fx-strikethrough: true;
+}
+
+.filter-header {
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+}
+
+.sidebar-header {
+  -fx-background-color: #c9c9c9;
+  -fx-alignment: center;
+  -fx-padding: 5px;
+}
+
+.sidebar-header-text {
+  -fx-fill: black;
+  -fx-font-size: 13px;
+  -fx-text-alignment: center;
+  -fx-font-weight: 700;
+}
+
+.filter-checkbox {
+  -fx-padding: 2px 0px 2px 7px;
+}
+
+.filter-checkbox-first {
+  -fx-padding: 8px 0px 2px 7px;
+}
+
+.filter-checkbox-last {
+  -fx-padding: 2px 0px 8px 7px;
+}
+
+.ItemArial{
+  -fx-font-family: "Arial";
+}
+
+.ItemBigCaslon{
+  -fx-font-family: "Big Caslon";
+}
+
+.ItemDINAlternate{
+  -fx-font-family: "DIN Alternate";
+}
+
+.ItemFutura{
+  -fx-font-family: "Futura";
+}

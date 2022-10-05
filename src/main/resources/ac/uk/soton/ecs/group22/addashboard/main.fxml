@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane fx:id="mainTabPane" maxWidth="800.0" minWidth="800.0" prefHeight="500.0" prefWidth="800.0" styleClass="background-colour" stylesheets="@style.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.uk.soton.ecs.group22.addashboard.MainController">
+  <tabs>
+    <Tab text="Data">
+      <content>
+        <fx:include fx:id="dataTabPane" source="loadData.fxml" />
+      </content>
+    </Tab>
+    <Tab text="Metrics">
+      <content>
+        <fx:include fx:id="metricTabPane" source="metric.fxml" />
+      </content>
+    </Tab>
+    <Tab text="Compare">
+      <content>
+        <fx:include fx:id="compareTabPane" source="compare.fxml" />
+      </content>
+    </Tab>
+    <Tab text="Settings">
+      <content>
+        <fx:include fx:id="settingsTabPane" source="setting.fxml" />
+      </content>
+    </Tab>
+    <Tab fx:id="printTab" text="Print">
+      <content>
+        <fx:include fx:id="printTabPane" source="print.fxml" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
